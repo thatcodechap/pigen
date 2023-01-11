@@ -1,7 +1,9 @@
 const express = require('express');
+const cors = require('cors');
 const {generatePassword} = require('./internal');
 
 const app = new express();
+app.use(cors());
 app.get('/generate',(req,res)=>{
     //default values
     let length=10,quantity=1;
