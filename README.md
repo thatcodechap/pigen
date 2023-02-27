@@ -1,6 +1,6 @@
 # Pigen
 
-A simple tool to generate any number of very strong passwords of given length.
+A simple tool to generate any number of very strong passwords of given length. It can also be used for something that uses random strings.
 
 ## API endpoint
 **`GET`**
